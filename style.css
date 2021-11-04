@@ -1,8 +1,19 @@
+* {
+  margin: auto;
+  padding: auto;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
-  position: fixed;
-  top: 0;
+#tabela tr , th , td {
+  border: 1px solid;
+  border-color: black;
+  text-align: center;
+}
+
+table {
+  width: 30%;
+  margin: auto;
 }
