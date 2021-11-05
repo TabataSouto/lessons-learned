@@ -1,16 +1,75 @@
 * {
-  margin: auto;
-  padding: auto;
+  margin: auto 0;
 }
 
 body {
   background-color: rgb(253, 251, 251);
 }
 
+h1 , h2 {
+  font-family: cursive;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: rgb(201, 169, 122);
+}
+
+h2 {
+  font-size: 18px;
+}
+
+span {
+  font-weight: 800;
+}
+
+section , article {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+ol {
+  padding: 20px;
+  display: inline-block;
+}
+
+ul {
+  padding: 20px;
+}
+
 /* CABEÇALHO */
+header h1 {
+  text-align: center;
+  color: black;
+  display: inline;
+}
+
+p , li , th , td {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-size: 15px;
+}
+
 #cabecalho {
+  background-color: navajowhite;
   position: fixed;
   top: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+/* IMAGEM */
+img {
+  display: block;
+}
+
+#minha_foto {
+  width: 20%;
+  margin: auto;
+  margin-top: 130px;
+  padding: 5px;
+  border: 5px solid rgba(255, 222, 173, 0.507);
+  border-radius: 10px;
 }
 
 /* TABELA */
