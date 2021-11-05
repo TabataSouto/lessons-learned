@@ -20,12 +20,7 @@ span {
   font-weight: 800;
 }
 
-ol {
-  display: inline-block;
-  padding: 20px;
-}
-
-ul {
+ul , ol {
   display: inline-block;
   padding: 20px;
 }
@@ -98,8 +93,8 @@ nav p , a {
   text-align: center;
 }
 
-#tabela {
-  padding: 1%;
+table {
+  margin-top: 170px;
 }
 
 footer {
